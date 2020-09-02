@@ -1,0 +1,156 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+  }
+  
+  .left-side {
+    display: flex;
+  }
+  
+  .nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  .nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  
+  .active-nav-link {
+    border-bottom: 1px solid black;
+  }
+  
+  .active-nav-link a {
+    color: black !important;
+  }
+  
+  .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+  
+  .profile-image-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    break-inside: avoid;
+    opacity: 0.3;
+    position: relative;
+  }
+
+  
+  .profile-content-wrapper {
+    line-height: 30px;
+    bottom: 100px;
+    position: relative;
+    font-size: larger;
+    left: 100px;
+    font-weight: bold;
+    position: absolute;
+  }
+  
+  .profile-content-wrapper h1{
+    color: darkred;
+    font-weight: bold;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .contact-wrapper{
+    margin-left: 250px;
+  }
+  
+  .intro h2{
+    color: lightseagreen;
+}
+.intro{
+  font-size: large;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+}
+.dashboard-header{
+  text-align: center;
+  left: 80px;
+}
+.imgcontact{
+  opacity: 0.4;
+}
+.threecolumns{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.email{
+  position: absolute;
+  top: 400px;
+  left: 200px; 
+}
+.linkedin{
+  position: absolute;
+  top: 400px;
+  left: 1100px; 
+}
+
+.github{
+  position: absolute;
+  top: 400px;
+  left: 650px; 
+  
+} 
+.mlintro h1{
+  color: lightseagreen;
+  font-weight: bold;
+}
+.mlintro{
+  position: absolute;
+  line-height: 30px;
+  font-size: larger;
+  text-align: center;
+  font-weight: bold;
+  top: 200px;
+  padding-left: 25px;
+}
+
+.cluster h2{
+  color: lightseagreen;
+  font-weight: bold;
+}
+.cluster{
+  padding-left: 40px;
+}
+
+.mlpic{
+  opacity: 0.4;
+}
+.supervised h2{
+  color: lightseagreen;
+  font-weight: bold;
+}
+.supervised{
+ 
+  padding-left: 40px;
+}

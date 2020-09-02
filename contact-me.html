@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Heart Failure Analysis</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+      <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="hf_dash.html">Dataset</a>
+                </div>
+                <div class="nav-link-wrapper ">
+                    <a href="ml.html">ML ANALYSIS</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="contact-me.html">Contact</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <p> <span id="datetime"></span></p>
+                <script>
+                    var dt = new Date();
+                    document.getElementById("datetime").innerHTML = dt.toLocaleString();
+                </script>
+                <div class="brand">
+                    SHAKED SHTAUBER
+                </div>
+            </div>
+        </div>
+        <div class="imgcontact">
+            <img src="images/contact12.jpg" alt="" width="1500" height="710">
+        </div>
+        <div class="threecolumns">
+            <div  class="email">
+                <a href="mailto: Shaked.rj@gmail.com"><img src="images/gmail.jpg" alt="" 
+                title = "Email me at: shaked.rj@gmail.com" height="140" width="160" style=" border-radius: 8px;">
+                </a>
+            </div>
+            <div class="linkedin">
+                <a href="http://www.linkedin.com/in/shaked-shtauber"><img src="images/linkedin.png" alt="" 
+                title = "Check out my LinkedIn" height="140" width="160" style=" border-radius: 8px;" >
+                </a>
+            </div>
+            <div class="github">
+                <a href="https://github.com/ShakedRj"><img src="images/github.png" alt="" 
+                title = "Take a look at my GitHub" height="140" width="190" style=" border-radius: 8px;" >
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
