@@ -51,31 +51,116 @@ body {
   .nav-link-wrapper a:hover {
     color: black;
   }
-  
-  .profile-image-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    break-inside: avoid;
-    opacity: 0.3;
-    position: relative;
-  }
-
-  
-  .profile-content-wrapper {
-    line-height: 30px;
-    bottom: 100px;
-    position: relative;
-    font-size: larger;
-    left: 100px;
-    font-weight: bold;
+  .homeimg{
     position: absolute;
   }
+  .homeintro{
+    position: absolute;
+    color: whitesmoke;
+  }
+  .homeintro h1{
+    display: flex;
+    padding-top: 240px;
+    text-align: center;
+    padding-left:380px;
+    font-size:50px;
+  }
+  .homeintro h2{
+    text-align: center;
+    padding-left:600px;
+    font-size:40px;
+  }
+  .homeintro h3{
+    padding-left:650px;
+    padding-top: 170px;
+    font-size:20px;
+  }
+  .profile-content-wrapper {
+    position: absolute;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    top: 170px;
+    padding-left: 200px;
+  }
+  .bgaboutpic{
+    opacity: 0.3;
+  }
+ .profimg{
+   position: absolute;
+   left: 1250px;
+   bottom: 430px;
+ }
   
   .profile-content-wrapper h1{
-    color: darkred;
+    color: lightseagreen;
     font-weight: bold;
+  
+  }
+  .funfacts h2{
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 600px;
+  }
+  .nature-text{
+    position: relative;
+    font-size: 25px;
+    padding-top: 20px;
+    left: -520px;
+    text-align: center;
+  }
+  .lotr-text{
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    left: 520px;
+    bottom: -217px;
+    
+  }
+  .food-text{
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    left: 890px;
+    bottom: -190px;
+  }
+  .ski-text{
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    left: 1230px;
+    bottom: -200px;
   }
 
+  .nature{
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+    left: 100px;
+  }
+  .lotr{
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+    left: 450px;
+    bottom: -230px;
+  }
+  .food{
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+    left: 800px;
+    bottom: -230px;
+  }
+  .ski{
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+    left: 1150px;
+    bottom: -230px;
+  }
   .center{
     text-align: center;
   }
@@ -132,7 +217,7 @@ body {
   text-align: center;
   font-weight: bold;
   top: 200px;
-  padding-left: 25px;
+  padding-left: 40px;
 }
 
 .cluster h2{
@@ -146,6 +231,7 @@ body {
 .mlpic{
   opacity: 0.4;
 }
+
 .supervised h2{
   color: lightseagreen;
   font-weight: bold;
@@ -154,3 +240,56 @@ body {
  
   padding-left: 40px;
 }
+.map{
+  text-align:center;
+}
+.profile-content-wrapper blockquote{
+  color: lightseagreen;
+  font-size:larger;
+  font-weight: bold;
+  left: 200px;
+}
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+  text-align: center;
+  }
+  
+  blockquote:before {
+  display: block;
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+  }
+  blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+    color: #7a7a7a;
+}
+  blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+  }
+   
+  blockquote cite:before {
+  content: "\2014 \2009";
+  }
