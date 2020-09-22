@@ -178,12 +178,9 @@ body {
   line-height: 30px;
   text-align: center;
 }
-.dashboard-header{
-  text-align: center;
-  left: 80px;
-}
 .imgcontact{
   opacity: 0.4;
+  
 }
 .threecolumns{
   display: grid;
@@ -206,43 +203,7 @@ body {
   left: 650px; 
   
 } 
-.mlintro h1{
-  color: lightseagreen;
-  font-weight: bold;
-}
-.mlintro{
-  position: absolute;
-  line-height: 30px;
-  font-size: larger;
-  text-align: center;
-  font-weight: bold;
-  top: 200px;
-  padding-left: 40px;
-}
 
-.cluster h2{
-  color: lightseagreen;
-  font-weight: bold;
-}
-.cluster{
-  padding-left: 40px;
-}
-
-.mlpic{
-  opacity: 0.4;
-}
-
-.supervised h2{
-  color: lightseagreen;
-  font-weight: bold;
-}
-.supervised{
- 
-  padding-left: 40px;
-}
-.map{
-  text-align:center;
-}
 .profile-content-wrapper blockquote{
   color: lightseagreen;
   font-size:larger;
