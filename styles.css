@@ -71,7 +71,7 @@ body {
     font-size:40px;
   }
   .homeintro h3{
-    padding-left:650px;
+    padding-left:630px;
     padding-top: 170px;
     font-size:20px;
   }
@@ -80,29 +80,17 @@ body {
     line-height: 40px;
     font-size: 20px;
     text-align: center;
-    font-weight: bold;
     top: 170px;
     padding-left: 200px;
   }
-  .bgaboutpic{
-    opacity: 0.3;
-  }
- .profimg{
-   position: absolute;
-   left: 1250px;
-   bottom: 430px;
- }
   
-  .profile-content-wrapper h1{
-    color: lightseagreen;
-    font-weight: bold;
-  
-  }
   .funfacts h2{
     color: lightseagreen;
     font-weight: bold;
     font-size: 30px;
-    padding-left: 600px;
+    position: relative;
+    padding-left: 620px;
+    padding-top: 900px;
   }
   .nature-text{
     position: relative;
@@ -145,7 +133,7 @@ body {
     position: absolute;
     opacity: 0.6;
     left: 450px;
-    bottom: -230px;
+  
   }
   .food{
     border-radius: 50%;
@@ -208,7 +196,7 @@ body {
   color: lightseagreen;
   font-size:larger;
   font-weight: bold;
-  left: 200px;
+  left: 250px;
 }
 blockquote {
   font-family: Georgia, serif;
@@ -253,4 +241,18 @@ blockquote {
    
   blockquote cite:before {
   content: "\2014 \2009";
+  }
+
+  .twocolumnsabout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .profimgabout{
+    position: relative;
+    right:100px;
+    top:40px;
+  }
+  .aboutwords{
+    right:150px;
+    position: relative;
   }
