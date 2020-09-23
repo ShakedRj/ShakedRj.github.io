@@ -104,7 +104,7 @@ body {
     font-size: 25px;
     text-align: center;
     left: 520px;
-    bottom: -217px;
+    bottom: -463px;
     
   }
   .food-text{
@@ -112,14 +112,14 @@ body {
     font-size: 30px;
     text-align: center;
     left: 890px;
-    bottom: -190px;
+    bottom: -445px;
   }
   .ski-text{
     position: absolute;
     font-size: 25px;
     text-align: center;
     left: 1230px;
-    bottom: -200px;
+    bottom: -445px;
   }
 
   .nature{
@@ -133,21 +133,22 @@ body {
     position: absolute;
     opacity: 0.6;
     left: 450px;
-  
+    bottom: -474px;
+
   }
   .food{
     border-radius: 50%;
     position: absolute;
     opacity: 0.6;
     left: 800px;
-    bottom: -230px;
+    bottom: -474px;
   }
   .ski{
     border-radius: 50%;
     position: absolute;
     opacity: 0.6;
     left: 1150px;
-    bottom: -230px;
+    bottom: -474px;
   }
   .center{
     text-align: center;
@@ -256,3 +257,51 @@ blockquote {
     right:150px;
     position: relative;
   }
+
+
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .portfolio-item-wrapper {
+    position: relative;
+  }
+  
+  .portfolio-img-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+  }
+  
+  .img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .img-text-wrapper .subtitle {
+    transition: 1s;
+    color: transparent;
+  }
+  
+  .image-blur {
+    transition: 1s;
+    filter: brightness(10%);
+  }
+  
+  .img-text-wrapper:hover .subtitle {
+    color: lightseagreen;
+    font-weight: 600;
+  }
+  
+ 
